@@ -2,35 +2,78 @@
 <html>
   <style>
     
-    body {
-  margin: 40px;
+body,h1,h2{font-family:"Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-gap: 10px;
-  background-color: #fff;
-  color: #444;
+div.a {
+  font-size: 18px;
 }
 
-.box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
 }
-    
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
   </style>
+  <body>
+  <h1> Jimmy </h1>
+  <p> Check out some websites I designed! I also do graphic design.
+  <a href="http://hixson.carbonmade.com" target="_blank"> Click here </a> to check out my portfolio! </p>
   
-  
-<div class="wrapper">
-  <div class="box a">A</div>
-  <div class="box b">B</div>
-  <div class="box c">C</div>
-  <div class="box d">D</div>
-  <div class="box e">E</div>
-  <div class="box f">F</div>
+<div class="gallery">
+  <a target="_blank" href="foodsite.png">
+    <img src="foodsite.png" alt="foodsite" width="600" height="400">
+  </a>
+  <div class="desc"> Food Website </div>
+</div>
+
+
+<div class="gallery">
+  <a target="_blank" href="funland.png">
+    <img src="funland.png" alt="funland" width="600" height="400">
+  </a>
+  <div class="desc">  Family Park Site </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="shoesite.png">
+    <img src="shoesite.png" alt="shoewebsite" width="600" height="400">
+  </a>
+  <div class="desc"> Shoe Store Site </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="carshowsite.png">
+    <img src="carshowsite.png" alt="carshow" width="600" height="400">
+  </a>
+  <div class="desc"> Car show website </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="teamsite.png">
+    <img src="teamsite.png" alt="porsche918" width="600" height="400">
+  </a>
+  <div class="desc"> Team Website </div>
 </div>
 </html>
