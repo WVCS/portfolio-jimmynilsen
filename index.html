@@ -1,25 +1,65 @@
 <!DOCTYPE html> 
 <html>
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    
-body,h1,h2{font-family:"Raleway", sans-serif}
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+  
+  
+body {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+	
+	body {
+  background-image: url("");
+  background-color: #66c2ff;
+  padding: 20px;
+}
+	
+body,h1,h2{font-family: Arial, Helvetica, sans-serif;}
 body, html {height: 100%}
 p {line-height: 2}
 .bgimg, .bgimg2 {
   min-height: 100%;
-  background-position: center;
+  background-position: ;
   background-size: cover;
 }
 
 div.a {
   font-size: 18px;
+ 
 }
 
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 350px;
+  border: 2px solid white;
+  width: 1000px;
 }
 
 div.gallery:hover {
@@ -33,47 +73,73 @@ div.gallery img {
 
 div.desc {
   padding: 15px;
-  text-align: center;
+  text-align: ;
+}
+
+p {
+  font-family: Georgia, serif
 }
   </style>
+</head>
   <body>
-  <h1> Jimmy </h1>
-  <p> Check out some websites I designed! I also do graphic design.
-  <a href="http://hixson.carbonmade.com" target="_blank"> Click here </a> to check out my portfolio! </p>
+  
+  <h1> <center> <img src="logo.png" alt=logo width=95px > </center> </h1>
+  
+  <ul>
+  <li><a class="active" href="Home.html">Work</a></li>
+  <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+  
+  <h1> Jimmy Nilsen </h1>
+  <hr>
+  <p> Check out some websites I designed!</p>
   
 <div class="gallery">
-  <a target="_blank" href="foodsite.png">
-    <img src="foodsite.png" alt="foodsite" width="600" height="400">
-  </a>
-  <div class="desc"> Food Website </div>
-</div>
+<a target="_blank" href="foodsite.png">
 
+     <img src="foodsite.png" alt="foodsite" width=800px> 
+  </a>
+  <div class="desc"> <center> Food Website </center> </div>
+</div>
+<br>
 
 <div class="gallery">
   <a target="_blank" href="funland.png">
-    <img src="funland.png" alt="funland" width="600" height="400">
+    <img src="funland.png" alt="funland" class="responsive" width="600" height="400">
   </a>
-  <div class="desc">  Family Park Site </div>
+  <div class="desc"> <center> Family Park Site</center> </div>
 </div>
-
+<br>
 <div class="gallery">
   <a target="_blank" href="shoesite.png">
-    <img src="shoesite.png" alt="shoewebsite" width="600" height="400">
+    <img src="shoesite.png" alt="shoewebsite" class="responsive" width="600" height="400">
   </a>
-  <div class="desc"> Shoe Store Site </div>
+  <div class="desc"> <center>Shoe Store Site </center></div>
 </div>
-
+<br>
 <div class="gallery">
   <a target="_blank" href="carshowsite.png">
-    <img src="carshowsite.png" alt="carshow" width="600" height="400">
+    <img src="carshowsite.png" alt="carshow" class="responsive" width="600" height="400">
   </a>
-  <div class="desc"> Car show website </div>
+  <div class="desc"><center> Car Show website </center></div>
 </div>
-
+<br>
 <div class="gallery">
   <a target="_blank" href="teamsite.png">
-    <img src="teamsite.png" alt="teamsite" width="600" height="400">
+    <img src="teamsite.png" alt="teamsite" class="responsive" width="600" height="400">
   </a>
-  <div class="desc"> Team Website </div>
+  <div class="desc"><center> Team Website </center></div>
+  
+  <br>
+<div class="gallery">
+  <a target="_blank" href="loremsite.png">
+    <img src="loremsite.png" alt="loremipsumsite" class="responsive" width="600" height="400">
+  </a>
+  <div class="desc"><center> Template Webite </center></div>
+  
 </div>
+</div>
+</div>
+<br>
 </html>
